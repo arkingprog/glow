@@ -1,0 +1,264 @@
+.red {
+  color: #ff3333;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+.header {
+  height: 690px;
+  text-align: center;
+  background: url("../image/header.png") no-repeat;
+  background-size: cover;
+}
+.header--logo {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #222222;
+}
+.header--link ul {
+  padding: 0;
+}
+.header--link ul > li {
+  color: #222222;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-color: rgba(3, 3, 3, 0.5);
+  line-height: 52px;
+  border-radius: 50%;
+}
+.header--link ul > li:nth-child(2) {
+  margin: 0 15px;
+}
+.header--link ul > li:hover {
+  background-color: #030303;
+  cursor: pointer;
+}
+.header--link ul > li img {
+  vertical-align: middle;
+}
+.header--arrow {
+  padding: 55px 0;
+}
+.features .container {
+  display: flex;
+  width: 1070px;
+}
+.features--col {
+  width: 33%;
+}
+.features--col .features--item {
+  margin-top: 60px;
+}
+.features--col .features--item .item-header {
+  color: #222222;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.features--col .features--item .item-content {
+  color: #848484;
+  font-size: 16px;
+  line-height: 26px;
+}
+.features--phone {
+  margin-top: -290px;
+  width: 465px;
+}
+.about {
+  background-color: #e8e8e8;
+}
+.about .container {
+  display: flex;
+  justify-content: space-between;
+}
+.about .container .about-col {
+  margin: 60px 0;
+  width: 45%;
+}
+.about .container .about-col .about--header {
+  margin-bottom: 30px;
+  color: #222222;
+  font-size: 30px;
+}
+.about .container .about-col .about--content {
+  line-height: 26px;
+  color: #848484;
+}
+.about .container .about-col .about--content ul {
+  list-style-image: url('../image/bullet.png');
+}
+.awesome {
+  margin-top: 60px;
+}
+.awesome--header {
+  text-align: center;
+  font-size: 30px;
+  line-height: 18px;
+  color: #222222;
+  margin-bottom: 25px;
+}
+.awesome--subheader {
+  text-align: center;
+  line-height: 26px;
+  color: #848484;
+}
+.awesome--item {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.awesome--item .item {
+  width: 31%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.awesome--item .item img {
+  display: block;
+  margin: auto;
+  height: 50px;
+}
+.awesome--item .item--header {
+  font-size: 24px;
+  line-height: 18px;
+  margin: 30px 0;
+  color: #222222;
+}
+.awesome--item .item--content {
+  line-height: 26px;
+  color: #848484;
+  padding: 0 40px;
+}
+.pricing {
+  background-color: #e8e8e8;
+  text-align: center;
+  padding: 60px 0;
+}
+.pricing .container .pricing--header {
+  font-size: 30px;
+  line-height: 18px;
+  text-align: center;
+  color: #222222;
+}
+.pricing .container .pricing--subheader {
+  padding: 30px 0;
+  line-height: 26px;
+  color: #848484;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.pricing .container .pricing--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing .container .pricing--item .item {
+  width: 24%;
+}
+.pricing .container .pricing--item .item:hover .hide {
+  display: block;
+}
+.pricing .container .pricing--item .item:hover .item-header,
+.pricing .container .pricing--item .item:hover .item-footer {
+  background-color: #e74c3c;
+}
+.pricing .container .pricing--item .item:hover .item-footer .purchase {
+  background-color: #ff6666;
+}
+.pricing .container .pricing--item .item-header {
+  color: #fefefe;
+  font-size: 28px;
+  line-height: 24px;
+  background-color: #322e2e;
+  padding: 17px 0;
+}
+.pricing .container .pricing--item .item .price {
+  font-size: 42px;
+  padding: 16px 0;
+}
+.pricing .container .pricing--item .item .feature-list {
+  color: #848484;
+}
+.pricing .container .pricing--item .item .feature-list .feature {
+  padding: 14px 0;
+  border-top: 1px solid #c2c2c2;
+}
+.pricing .container .pricing--item .item .item-footer {
+  background-color: #322e2e;
+  height: 80px;
+  display: flex;
+}
+.pricing .container .pricing--item .item .item-footer .purchase {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 40px;
+  background-color: #666666;
+  width: 140px;
+  height: 40px;
+  margin: auto;
+}
+.subscribe {
+  background: url("../image/subscribe.png") no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+.subscribe--header {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 30px ;
+}
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe form input[type=text] {
+  width: 370px;
+  height: 75px;
+  text-indent: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: transparent;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 18px;
+}
+.subscribe form input[type=submit] {
+  margin-left: 10px;
+  font-size: 18px;
+  height: 77px;
+  width: 150px;
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+}
+.subscribe form input[type=submit]:hover {
+  background-color: #ff6666;
+  cursor: pointer;
+}
+.footer {
+  background: #e8e8e8;
+  height: 140px;
+}
+.footer ul {
+  text-align: center;
+  margin: 0;
+  line-height: 140px;
+}
+.footer ul > li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.footer ul > li a {
+  color: #848484;
+  text-decoration: none;
+}
+.footer ul > li a:hover {
+  text-decoration: underline;
+}
